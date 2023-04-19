@@ -1,21 +1,95 @@
-
+body{
+  font-family: 'Noto Sans Display', sans-serif;
+  line-height: 1.7em;
+  max-width: 20%;
+}
+header{
+  margin-top: 3em;
+  background-color: white;
+  padding-left: 0%;
+}
+main{ margin-top: 8em;
+  background-color: white;
+}
+footer{
+  background-color: white;
+}
 div{
-  background-color: aliceblue;
-  width: 1000px;
-  margin: 50px;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 3.9em;
+  background-color: 000;
+  width: 62.4em;
+  margin-bottom: 3em;
+  transform: translate(25%);
 }
 div.Contacts{
+  padding-left: 3em;
   text-align: center;
-  width: 1750px;
+  background-color: green;
+  transform: translate(30%);
+}
+nav.link{
+padding-left: 5em;
 }
 div.link{
+  font-size: 1.2em;
   text-align: center;
-  width: 1750px;
+  padding-left: 0em;
+  background-color: green;
+  transform: translate(18%);
 }
-p{
+p{ 
+  color: rgb(80, 79, 79);
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font-size: 1.2em;
+    padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 2.6em;
+}
+div.Quote{
+  width: 35em;
+  background-color: rgb(205, 204, 204);
+  font-size: 1.2em;
+  font-style: italic;
+  transform: translate(70%);
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0em;
+}
+div.title{
+  font-family:'PT Serif', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 1.8em;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1em;
+  padding-left: 12.5em;
+  transform: translate(0%);
+}
+div.img{
+  transform: translate(20%);
+  padding-left: 0em;
+}
+li{
+  color: rgb(80, 79, 79);
+}
+ul.List{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  width: 1000px;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 3em;
+}
+div.conteiner{
+  width: 7em;
+  height: 10em;
+  float:left;
+  background-color: white;
+  padding-left: 0%;
+  line-height: 10em;
+  clear: both;
+}
+a.Color{
+  color: white;
 }
