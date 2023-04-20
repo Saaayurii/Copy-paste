@@ -93,3 +93,13 @@ div.conteiner{
 a.Color{
   color: white;
 }
+.background{
+  margin-left: 10em;
+  width: 40em;
+  height: 3em;
+  background-color: rgb(171, 166, 166);
+}
+.fix{
+  width: 8em;
+  height: 3em;
+}
