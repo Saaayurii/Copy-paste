@@ -24,6 +24,7 @@ div{
   transform: translate(25%);
 }
 div.Contacts{
+  opacity: 90%;
   padding-left: 3em;
   text-align: center;
   background-color: green;
@@ -33,6 +34,7 @@ nav.link{
 padding-left: 5em;
 }
 div.link{
+  opacity: 90%;
   font-size: 1.2em;
   text-align: center;
   padding-left: 0em;
@@ -93,17 +95,26 @@ div.conteiner{
 a.Color{
   color: white;
 }
-.background{opacity: 70%;
+.background{
+  opacity: 70%;
   border-radius: 10px;
   margin-left: 5em;
   width: 50em;
   height: 3em;
   background-color: rgb(171, 166, 166);
 }
-.fix{color: white;
+.fix{
+  color: white;
   opacity: 90%;
   border-radius: 10px;
   background-color:green;
   width: 9em;
   height: 3em;
+}
+.nav{
+  opacity: 90%;
+  font-size: 1.25em;
+  color: white;
+  border-radius: 10px;
+  background-color: green;
 }
