@@ -93,13 +93,17 @@ div.conteiner{
 a.Color{
   color: white;
 }
-.background{
-  margin-left: 10em;
-  width: 40em;
+.background{opacity: 70%;
+  border-radius: 10px;
+  margin-left: 5em;
+  width: 50em;
   height: 3em;
   background-color: rgb(171, 166, 166);
 }
-.fix{
-  width: 8em;
+.fix{color: white;
+  opacity: 90%;
+  border-radius: 10px;
+  background-color:green;
+  width: 9em;
   height: 3em;
 }
