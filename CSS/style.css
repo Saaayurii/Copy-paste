@@ -87,6 +87,8 @@ ul.List{
   padding-left: 3em;
 }
 div.conteiner{
+  position:fixed;
+  top: 20%;
   width: 7em;
   height: 10em;
   float:left;
