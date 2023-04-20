@@ -23,22 +23,25 @@ div{
   margin-bottom: 3em;
   transform: translate(25%);
 }
-div.Contacts{
+div.Contacts{border-radius: 10px;
   opacity: 90%;
   padding-left: 3em;
   text-align: center;
-  background-color: green;
+  background: linear-gradient(green,rgb(27, 169, 27));
   transform: translate(30%);
 }
 nav.link{
 padding-left: 5em;
 }
 div.link{
+  width: 47em;
+  margin-left: 9em;
+  word-spacing: 1.5em;
+  border-radius: 10px;
   opacity: 90%;
   font-size: 1.2em;
   text-align: center;
-  padding-left: 0em;
-  background-color: green;
+  background: linear-gradient(green,rgb(27, 169, 27));
   transform: translate(18%);
 }
 p{ 
@@ -107,7 +110,7 @@ a.Color{
   color: white;
   opacity: 90%;
   border-radius: 10px;
-  background-color:green;
+  background: linear-gradient(green,rgb(27, 169, 27));
   width: 9em;
   height: 3em;
 }
@@ -116,5 +119,5 @@ a.Color{
   font-size: 1.25em;
   color: white;
   border-radius: 10px;
-  background-color: green;
+  background: linear-gradient(green,rgb(27, 169, 27));
 }
