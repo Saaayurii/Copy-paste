@@ -133,6 +133,9 @@ p{
   opacity: 80%;
   
 }
+.footer-list:hover{
+  background: linear-gradient(red,red);
+}
 .footer-list-point{
   padding-left: 13em;
   font-size: 1.5em;
