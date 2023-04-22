@@ -22,6 +22,9 @@ body{
   background: linear-gradient( rgb(10, 106, 10),rgb(28, 191, 28));
   opacity: 80%;
 }
+.url:hover{
+  background: linear-gradient(red,red);
+}
 .block{
   font-size: 1.5em;
   padding-left: 4.5em;
@@ -34,6 +37,7 @@ body{
 }
 /* Поисковик */
 .search{
+  font-size: 1.2em;
   width: 60%;
   height: 50px;
   border-radius: 0.5em;
@@ -47,6 +51,9 @@ body{
   background: linear-gradient( rgb(10, 106, 10),rgb(28, 191, 28));
   opacity: 80%;
 }
+.button:hover{
+  background: linear-gradient(red,red);
+}
 /* Правое Меню */
 .aside{ 
   position: fixed;
@@ -55,14 +62,19 @@ body{
   margin-left: 0;
   float: left;
   width: 18%;
+  
 }
 /* Пункт */
-.Point{height: 30px;
+.Point{
+  height: 30px;
   margin: 1.2em;
   color:white;
   border-radius: 0.5em;
   background: linear-gradient( rgb(10, 106, 10),rgb(28, 191, 28));
   opacity: 80%;
+}
+.Point:hover{
+  background: linear-gradient(red,red);
 }
 /* Заголовки */
 .heading{
